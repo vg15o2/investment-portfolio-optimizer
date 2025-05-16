@@ -1,20 +1,6 @@
 <!--isualize risk-return trade-offs.
 - Optimize portfolios for maximum Sharpe Ratio or minimum volatility.
-- Plot the Efficient Frontier.
-
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/investment-portfolio-optimizer.git
-    ```
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-1. Fetch historical stock data:
-    ```bash
+- Plot the Efficient Fronti
     python fetch_data.py --ticker AAPL --start 2020-01-01 --end 2021-01-01
     ```
 2. Perform Monte Carlo simulations:
