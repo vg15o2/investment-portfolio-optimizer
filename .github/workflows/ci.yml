@@ -1,8 +1,52 @@
-- name: Install dependencies
-  run: |
-    if [ -f requirements.txt ]; then
-      pip install -r requirements.txt
-    else
-      echo "❌ ERROR: requirements.txt not found!"
-      exit 1
-    fi
+name: investment-portfolio-optimizer
+title: Investment Portfolio Optimizer
+description: >
+  A Python-powered tool to optimize investment portfolios using Modern Portfolio Theory (MPT) and Monte Carlo simulations.
+  Analyze, simulate, and visualize risk-return trade-offs with maximum Sharpe Ratio or minimum volatility in mind.
+
+
+version: 1.0.0
+
+license: MIT
+
+repository:
+  type: git
+  url: https://github.com/your-username/investment-portfolio-optimizer
+
+dependencies:
+  - python>=3.8
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - yfinance
+  - scipy
+
+features:
+  - Fetch historical stock data
+  - Run Monte Carlo simulations
+  - Optimize for max Sharpe Ratio or min volatility
+  - Visualize the efficient frontier
+  - Generate portfolio allocation charts
+
+scripts:
+  fetch_data: python fetch_data.py --ticker AAPL --start 2020-01-01 --end 2021-01-01
+  monte_carlo: python monte_carlo.py --iterations 1000
+  optimize: python optimize.py --objective sharpe_ratio
+  plot_frontier: python plot_efficient_frontier.py
+
+outputs:
+  - efficient_frontier.png
+  - sharpe_ratio_heatmap.png
+  - allocation_pie_chart.png
+
+tags:
+  - finance
+  - investing
+  - portfolio-optimization
+  - monte-carlo
+  - modern-portfolio-theory
+  - sharpe-ratio
+  - python
+
+visibility: public
