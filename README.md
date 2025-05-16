@@ -1,17 +1,4 @@
-<!--# Investment Portfolio Optimizer
-
-A Python tool to optimize investment portfolios using Modern Portfolio Theory (MPT). Features include risk-return analysis, Monte Carlo simulations, and portfolio suggestions.
-
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Features
-- Fetch historical stock data using `yfinance`.
-- Perform Monte Carlo simulations to visualize risk-return trade-offs.
+<!--isualize risk-return trade-offs.
 - Optimize portfolios for maximum Sharpe Ratio or minimum volatility.
 - Plot the Efficient Frontier.
 
