@@ -1,11 +1,3 @@
-<!--isualize risk-return trade-offs.
-- Optimize portfolios for maximum Sharpe Ratio or minimum volatility.
-- Plot the Efficient Fronti
-    python fetch_data.py --ticker AAPL --start 2020-01-01 --end 2021-01-01
-    ```
-
--->
-
 # 💰 Investment Portfolio Optimizer
 
 > *"Risk comes from not knowing what you're doing." – Warren Buffett*
@@ -15,13 +7,13 @@ A Python-powered tool that helps you optimize investment portfolios using **Mode
 ---
 
 ## Table of Contents
-- [Features](#-features)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Visuals](#-visuals)
-- [Concepts](#-concepts)
-- [Contributing](#-contributing)
-- [License](#-license)
+- Features
+- Installation
+- Usage
+- Visuals
+- Concepts
+- Contributing
+- License
 
 ---
 
