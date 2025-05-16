@@ -3,27 +3,6 @@
 - Plot the Efficient Fronti
     python fetch_data.py --ticker AAPL --start 2020-01-01 --end 2021-01-01
     ```
-2. Perform Monte Carlo simulations:
-    ```bash
-    python monte_carlo.py --iterations 1000
-    ```
-3. Optimize portfolio:
-    ```bash
-    python optimize.py --objective sharpe_ratio
-    ```
-4. Plot the Efficient Frontier:
-    ```bash
-    python plot_efficient_frontier.py
-    ```
-
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
-
 
 -->
 
